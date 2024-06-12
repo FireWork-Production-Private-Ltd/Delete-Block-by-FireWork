@@ -10,18 +10,12 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          
-      - name: Run PHPCS inspection
-        uses: rtCamp/action-phpcs-code-review@v3
-        env:
-          GH_BOT_TOKEN: ${{ secrets.PHPCS_SCAN }}
-          SKIP_FOLDERS: "tests,.github,themes/twentytwentyfour/,plugins/delete-block-by-firework/assets/build/"
-        with:
-          args: "WordPressVIPMinimum,WordPress,WordPress-Core,WordPress-Docs"
-      
+
       - name: Generate .phpcsignore for JavaScript files
         run: |
-          find . -type f -name "*.js" -not -path "./plugins/delete-block-by-firework/assets/*" > .phpcsignore
+          find . -type f -name "*.js" \
+            -not -path "./plugins/delete-block-by-firework/assets/*" \
+            > .phpcsignore
 
       - name: Run PHPCS inspection with .phpcsignore
         uses: rtCamp/action-phpcs-code-review@v3
