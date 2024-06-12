@@ -1,0 +1,3 @@
+# .phpcsignore
+plugins/delete-block-by-firework/assets/src/js/*.js
+plugins/delete-block-by-firework/webpack.config.js

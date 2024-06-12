@@ -49,3 +49,8 @@ wp-config.php
 themes/twentytwentyfour
 themes/twentytwentythree
 themes/twentytwentytwo
+plugins/delete-block-by-firework/node_modules
+plugins/delete-block-by-firework/vendor
+plugins/delete-block-by-firework/composer.lock
+plugins/delete-block-by-firework/package-lock.json
+wp-content/uploads/
