@@ -11,15 +11,13 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Generate .phpcsignore for specific files
+      - name: Exclude specific JavaScript files from PHPCS inspection
         run: |
-          echo "plugins/delete-block-by-firework/assets/src/js/*.js" >> .phpcsignore
-          echo "plugins/delete-block-by-firework/webpack.config.js" >> .phpcsignore
+          find . -type f \( -name "*.js" -o -name "webpack.config.js" \) > .phpcsignore
 
-      - name: Run PHPCS inspection with .phpcsignore
+      - name: Run PHPCS inspection with specific exclusions
         uses: rtCamp/action-phpcs-code-review@v3
         env:
           GH_BOT_TOKEN: ${{ secrets.PHPCS_SCAN }}
-          SKIP_FOLDERS: "tests,.github,themes/twentytwentyfour/,plugins/delete-block-by-firework/assets/build/"
         with:
           args: "WordPressVIPMinimum,WordPress,WordPress-Core,WordPress-Docs --ignore=./.phpcsignore"
