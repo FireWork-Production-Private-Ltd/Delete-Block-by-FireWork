@@ -1,58 +1,59 @@
-=== Delete Block by Firework ===
-Contributors: up1512001
-Tags: delete block, block editor, Gutenberg, editorial experience, WordPress
-Requires at least: 5.0
-Tested up to: 6.5
-Requires PHP: 8.0
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Delete Block by Firework
+
+**Contributors:** [up1512001](https://profiles.wordpress.org/up1512001/)  
+**Tags:** delete block, block editor, Gutenberg, editorial experience, WordPress  
+**Requires at least:** 5.0  
+**Tested up to:** 6.5  
+**Requires PHP:** 8.0  
+**Stable tag:** 1.0.0  
+**License:** GPLv2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
 A WordPress plugin that adds a delete button on the toggle control for all blocks to enhance the editorial experience.
 
-== Description ==
+## Description
 
 **Delete Block by Firework** is a WordPress plugin designed to improve the editorial experience by adding a delete button on the toggle control for all blocks in the Gutenberg editor. This feature allows users to quickly and easily delete any block, streamlining the content editing process.
 
-= Features =
-* Adds a delete button to the toggle control of all Gutenberg blocks.
-* Enhances the editorial experience by making block management more intuitive.
-* Easy to use and integrates seamlessly with the WordPress block editor.
+### Features
+- Adds a delete button to the toggle control of all Gutenberg blocks.
+- Enhances the editorial experience by making block management more intuitive.
+- Easy to use and integrates seamlessly with the WordPress block editor.
 
-== Installation ==
+## Installation
 
 1. Upload the plugin files to the `/wp-content/plugins/delete-block-by-firework` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= How do I use this plugin? =
+### How do I use this plugin?
 
 Once activated, the plugin will automatically add a delete button to the toggle control of all blocks in the Gutenberg editor. Simply click the button to delete the block.
 
-= Does this plugin work with all blocks? =
+### Does this plugin work with all blocks?
 
 Yes, the delete button will appear on the toggle control of all blocks in the Gutenberg editor.
 
-== Screenshots ==
+## Screenshots
 
 1. The delete button on the toggle control of a block.
    ![Delete Button on Block](./plugins/delete-block-by-firework/assets/images/ss1.png)
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
-* Initial release.
+### 1.0.0
+- Initial release.
 
-== Upgrade Notice ==
+## Upgrade Notice
 
-= 1.0.0 =
-* Initial release with delete button functionality on block toggle controls.
+### 1.0.0
+- Initial release with delete button functionality on block toggle controls.
 
-== Credits ==
+## Credits
 
-Developed by Utsav Patel visit [GitHub Repo](https://github.com/FireWork-Production-Private-Ltd/Delete-Block-by-FireWork)
+Developed by [Utsav Patel](https://github.com/up1512001).
 
-== License ==
+## License
 
 This plugin is licensed under the GPLv2 or later. For more information, see [GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html).
