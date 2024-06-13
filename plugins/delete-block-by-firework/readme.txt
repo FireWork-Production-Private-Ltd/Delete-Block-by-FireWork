@@ -37,7 +37,7 @@ Yes, the delete button will appear on the toggle control of all blocks in the Gu
 == Screenshots ==
 
 1. The delete button on the toggle control of a block.
-   ![Delete Button on Block](./plugins/delete-block-by-firework/assets/images/ss1.png)
+   ![Delete Button on Block](./assets/images/ss1.png)
 
 == Changelog ==
 
