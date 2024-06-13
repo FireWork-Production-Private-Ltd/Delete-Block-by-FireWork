@@ -8,6 +8,7 @@
 **Stable tag:** 1.0.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
+**Plugin Zip:** [Plugin Zip File](./delete-block-by-firework.zip)
 
 A WordPress plugin that adds a delete button on the toggle control for all blocks to enhance the editorial experience.
 
