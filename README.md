@@ -51,7 +51,7 @@ Yes, the delete button will appear on the toggle control of all blocks in the Gu
 
 == Credits ==
 
-Developed by Utsav Patel.
+Developed by Utsav Patel visit [GitHub Repo](https://github.com/FireWork-Production-Private-Ltd/Delete-Block-by-FireWork)
 
 == License ==
 
