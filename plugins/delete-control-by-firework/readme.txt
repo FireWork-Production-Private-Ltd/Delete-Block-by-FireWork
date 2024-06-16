@@ -21,7 +21,7 @@ A WordPress plugin that adds a delete button on the toggle control for all block
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/delete-block-by-firework` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/delete-control-by-firework` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 
 == Frequently Asked Questions ==
@@ -51,7 +51,7 @@ Yes, the delete button will appear on the toggle control of all blocks in the Gu
 
 == Credits ==
 
-Developed by Utsav Patel visit [GitHub Repo](https://github.com/FireWork-Production-Private-Ltd/Delete-Block-by-FireWork)
+Developed by Utsav Patel visit [GitHub Repo](https://github.com/FireWork-Production-Private-Ltd/Delete-Control-by-FireWork)
 
 == License ==
 
