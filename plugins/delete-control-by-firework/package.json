@@ -1,0 +1,26 @@
+{
+    "name": "delete-control-by-firework",
+    "version": "1.0.0",
+    "description": "Customized delete position to delete block by firework",
+    "scripts": {
+        "build": "webpack"
+    },
+    "keywords": [],
+    "author": "Utsav Patel",
+    "license": "MIT",
+    "dependencies": {
+        "webpack": "^5.44.0",
+        "webpack-cli": "^4.7.2"
+    },
+    "devDependencies": {
+        "@wordpress/block-editor": "^13.0.0",
+        "@wordpress/components": "^28.0.0",
+        "@wordpress/compose": "^7.0.0",
+        "@wordpress/data": "^10.0.0",
+        "@wordpress/dependency-extraction-webpack-plugin": "^6.0.0",
+        "@wordpress/element": "^6.0.0",
+        "@wordpress/hooks": "^4.0.0",
+        "babel-loader": "^8.2.2",
+        "webpack-dev-server": "^4.0.0"
+    }
+}

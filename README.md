@@ -1,4 +1,4 @@
-# Delete Block by Firework
+# Delete Control by Firework
 
 **Contributors:** [up1512001](https://profiles.wordpress.org/up1512001/)  
 **Tags:** delete block, block editor, Gutenberg, editorial experience, WordPress  
