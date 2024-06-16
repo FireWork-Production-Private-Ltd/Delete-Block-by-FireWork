@@ -3,9 +3,9 @@ const DependencyExtractionWebpackPlugin = require('@wordpress/dependency-extract
 
 module.exports = {
   mode: 'production',
-  entry: './assets/src/js/delete-block.js',
+  entry: './assets/src/js/delete-control.js',
   output: {
-    filename: 'delete-block.js',
+    filename: 'delete-control.js',
     path: path.resolve(__dirname, 'assets/build/js'),
   },
   plugins: [

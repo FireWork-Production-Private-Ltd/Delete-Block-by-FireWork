@@ -45,7 +45,7 @@ const withDelete = createHigherOrderComponent((BlockEdit) => {
 const addDeleteButtonFilter = () => {
     addFilter(
         'editor.BlockEdit',
-        'Firework/delete-block-by-firework',
+        'Firework/delete-control-by-firework',
         withDelete
     );
 };

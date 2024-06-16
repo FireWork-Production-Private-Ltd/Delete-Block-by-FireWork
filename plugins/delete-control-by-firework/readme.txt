@@ -1,6 +1,6 @@
-=== Delete Block by Firework ===
+=== Delete Control by Firework ===
 Contributors: up1512001
-Tags: delete block, block editor, Gutenberg, editorial experience, WordPress
+Tags: delete Control, block editor, Gutenberg, editorial experience, WordPress
 Requires at least: 5.0
 Tested up to: 6.5
 Requires PHP: 8.0
@@ -12,7 +12,7 @@ A WordPress plugin that adds a delete button on the toggle control for all block
 
 == Description ==
 
-**Delete Block by Firework** is a WordPress plugin designed to improve the editorial experience by adding a delete button on the toggle control for all blocks in the Gutenberg editor. This feature allows users to quickly and easily delete any block, streamlining the content editing process.
+**Delete Control by Firework** is a WordPress plugin designed to improve the editorial experience by adding a delete button on the toggle control for all blocks in the Gutenberg editor. This feature allows users to quickly and easily delete any block, streamlining the content editing process.
 
 = Features =
 * Adds a delete button to the toggle control of all Gutenberg blocks.
