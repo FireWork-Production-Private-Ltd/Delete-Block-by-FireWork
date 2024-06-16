@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Delete Control by Firework
- * Plugin URI: https://github.com/FireWork-Production-Private-Ltd/Delete-Block-by-FireWork
+ * Plugin URI: https://github.com/FireWork-Production-Private-Ltd/Delete-Control-by-FireWork
  * Description: This plugin will help you to delete the block easily.
  * Version: 1.0.0
  * Author: FireWork Production Private Ltd, up1512001
