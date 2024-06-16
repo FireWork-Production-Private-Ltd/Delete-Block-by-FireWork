@@ -1,5 +1,5 @@
 {
-    "name": "delete-block-by-firework",
+    "name": "delete-control-by-firework",
     "version": "1.0.0",
     "description": "Customized delete position to delete block by firework",
     "scripts": {
